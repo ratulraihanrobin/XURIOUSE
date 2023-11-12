@@ -1,0 +1,5 @@
+.DS.store
+*.zip
+*.log
+*.log.[0-9]
+*.mp4
