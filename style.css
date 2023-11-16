@@ -19,7 +19,7 @@ img {
 
 @media (width <= 600px) {
   img {
-    height: 250px;
+    height: 300px;
     width: auto;
   }
 }
