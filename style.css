@@ -1,20 +1,25 @@
-hrml {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-    background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: black;
 }
 
-div {
-    background-color: rgb(0, 0, 0);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 img {
-    height: 500px;
-    width: 500px;
+  height: 500px;
+  width: 500px;
+}
+
+@media (width <= 600px) {
+  img {
+    height: 250px;
+    width: auto;
+  }
 }
