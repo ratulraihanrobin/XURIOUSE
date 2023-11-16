@@ -25,11 +25,12 @@ footer {
   bottom: 1rem;
   color: #fff;
   font-family: 'Jura', sans-serif;
+  font-size: 1rem;
 }
 
 @media (width <= 600px) {
-    img {
-      height: 300px;
-      width: auto;
-    }
+  img {
+    height: 300px;
+    width: auto;
   }
+}
