@@ -1,36 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
+  min-height: 100dvh;
+  margin: 0;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  margin: 0;
-  background-color: black;
 }
-
 img {
-  height: 500px;
-  width: 500px;
+  height: 300px;
+  width: 300px;
 }
-
 footer {
   position: absolute;
   bottom: 0.5rem;
   color: #fff;
-  font-family: 'Jura', sans-serif;
   font-size: 1rem;
+  font-family: 'Jura', sans-serif;
 }
-
-@media (width <= 600px) {
+@media (width >= 600px) {
   img {
-    height: 300px;
-    width: auto;
+    height: 500px;
+    width: 500px;
   }
 }
