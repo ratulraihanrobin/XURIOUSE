@@ -9,12 +9,20 @@ body {
   margin: 0;
   background-color: black;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 img {
   height: 300px;
   width: 300px;
+}
+p {
+  color: #fff;
+  font-family: 'Jura', sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 0 .5rem;
 }
 footer {
   position: absolute;
